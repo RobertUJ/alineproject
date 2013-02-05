@@ -134,19 +134,45 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.admindocs',
-    'django.cnotrib.flatpages',
+    'django.contrib.flatpages',
     'django.contrib.humanize',
+    # My Apps
     'alineproject.apps.home',
+    'alineproject.apps.projects',
     # 'alineproject.apps.accounts',
     # 'alineproject.apps.customers',
     # 'alineproject.apps.feedback',
     # 'alineproject.apps.home',
-    # 'alineproject.apps.projects',
     # 'alineproject.apps.requirements',
     # 'alineproject.apps.stages',
     # 'alineproject.apps.tasks',
     # 'alineproject.apps.wireframes',
+    #Dependencies
+    # 'social_auth'
+    'sorl.thumbnail',
 )
+
+# AUTHENTICATION_BACKENDS = (
+#     # 'social_auth.backends.twitter.TwitterBackend',
+#     'social_auth.backends.facebook.FacebookBackend',
+#     'social_auth.backends.google.GoogleOAuthBackend',
+#     'social_auth.backends.google.GoogleOAuth2Backend',
+#     'social_auth.backends.google.GoogleBackend',
+# )
+
+# REQUEST_TOKEN_URL = 'https://www.google.com/accounts/OAuthGetRequestToken'
+# AUTHORIZATION_URL = 'https://www.google.com/accounts/OAuthAuthorizeToken'
+# ACCESS_TOKEN_URL = 'https://www.google.com/accounts/OAuthGetAccessToken'
+
+# GOOGLE_CONSUMER_KEY          = 'anonymous'
+# GOOGLE_CONSUMER_SECRET       = 'anonymous'
+
+# GOOGLE_OAUTH2_CLIENT_ID      = ''
+# GOOGLE_OAUTH2_CLIENT_SECRET  = ''
+
+# LOGIN_URL          = '/login-form/'
+# LOGIN_REDIRECT_URL = '/logged-in/'
+# LOGIN_ERROR_URL    = '/login-error/'
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to

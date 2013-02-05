@@ -14,10 +14,10 @@ urlpatterns = patterns('',
 
     #  Apps
     url(r'^',include('alineproject.apps.home.urls')),
+    url(r'^',include('alineproject.apps.projects.urls')),
     # url(r'^',include('alineproject.apps.accounts.urls')),
     # url(r'^',include('alineproject.apps.customers.urls')),
     # url(r'^',include('alineproject.apps.feedback.urls')),
-    # url(r'^',include('alineproject.apps.projects.urls')),
     # url(r'^',include('alineproject.apps.requirements.urls')),
     # url(r'^',include('alineproject.apps.stages.urls')),
     # url(r'^',include('alineproject.apps.tasks.urls')),
